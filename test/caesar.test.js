@@ -34,7 +34,7 @@ describe("caesar", () =>{
         expect(test).to.equal(expected)
     })
     it("Should wrap around alphabet when negative or positive at a and z", () =>{
-        let test = caesar.caesar('abc e', -3)
+        let test = caesar.caesar('abc d', -3)
         let expected = 'xyz a'
         expect(test).to.equal(expected)
     })
